@@ -1,0 +1,97 @@
+*,  *::after,  *::before {
+    box-sizing: border-box;
+}
+:root {
+    --creme:#fff8ef;
+    --chocolat:#4a2c1a;
+    --miel:#8b2f2f ;
+    --pistache:#6b8e4e;
+    --gris-texte:#3a3a3a;
+    --espace:1rem;
+
+}
+body {
+    background-color: var(--creme);
+    color: var(--gris-texte);
+}
+h2 {
+    color: var(--chocolat);
+    border-bottom: 2px solid var(--miel);
+}
+nav {
+    text-decoration: none;
+    color: var(--chocolat);
+}
+strong {
+    color: var(--miel);
+}
+footer {
+    background-color: var(--chocolat);
+    color: var(--creme);
+    padding: var(--espace);
+    text-align: center;
+}
+paragraph,element-liste {
+    line-height: 1.6;
+}
+#contact {
+    background-color: white;
+    padding: var(--espace);
+}
+.mise-en-avant {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+a:link {
+    color: var(--miel);
+}
+a:visited{
+    color: var(--pistache);
+}
+a:hover {
+    color: var(--chocolat);
+    text-decoration: underline;
+}
+a:active {
+    color: var(--chocolat);
+}
+.carte-info{
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid var(--miel);
+    background-color:white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;    
+}
+thead {
+    background-color: var(--miel);
+    color: var(--chocolat);
+}
+th,td {
+    border: 1px solid #ccc;
+    padding: 8px;   
+}
+tbody tr td:last-child {
+    text-align: right;
+}
+tbody tr:nth-child(even) {
+    background-color: #faf3e8;
+}
+caption{
+    caption-side:bottom;
+    font-style:italic;
+}
+.flash-retour {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--miel);
+    color: var(--chocolat);
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
